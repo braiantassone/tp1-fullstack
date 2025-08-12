@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.status,
+.timestamp {
+  color: rgb(141, 141, 141);
+  font-family: Arial,
+}
+
+.chats-box {
+  background-color: rgb(255, 255, 255);
+}
+
+.chat-6,
+.chat-5,
+.chat-4,
+.chat-3,
+.chat-2,
+.chat-1,
+h4 {
+  display: flex;
+}
+
+.chats-box,
+.chat-actions {
+  display: flex;
+  height: auto;
+}
+
+img {
+  height: 50px;
+  justify-content: start;
+}
+
+.message-received {
+  color: rgb(187, 19, 19);
+}
+
+.chat-1,
+.chat-2,
+.chat-3,
+.chat-4,
+.chat-5,
+.chat-6 {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+.message-sent {
+  color: rgb(122, 122, 122);
+}
+
+
+@media (max-width: 880px) {}
